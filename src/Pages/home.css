@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.homepage{
+    background: url(../Images/Homepage.webp);
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(to right top, #ffffff, #f8f7f9, #f3eff1, #eee7e9, #e9dfdf), url(../Images/Homepage.webp); */
+}
+.homepage .welcome{
+    font-size: 3rem;
+    color: white;
+}
+.homepage .resto{
+    font-size: 5rem;
+    color: white;
+}
+@media screen and (max-width:768px) {
+    .homepage .welcome{
+        font-size: 3rem;
+    }
+    .homepage .resto{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width:576px) {
+    .homepage .welcome{
+        font-size: 2rem;
+    }
+    .homepage .resto{
+        font-size: 3rem;
+    }
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about img{
+    width: 70%;
+}
+.menuitems{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-sec{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Images/favorites.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
