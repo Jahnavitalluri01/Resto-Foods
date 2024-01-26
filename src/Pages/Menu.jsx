@@ -44,11 +44,13 @@ function Menu(){
 
             <div className='container my-2'>
             <div className='row'>
-            <div className="col-lg-6 d-flex justify-content-center align-items-center">
-                    <img src={Lunch}  style={{width:'70%',opacity:'0.7'}} className="img-fluid rounded" />
+           
+            <div className="col-lg-6 d-flex flex-column  align-items-center">
+            <h1 className='text-success fw-bold text-center mb-5'>Lunch</h1>
+                    <img src={Lunch}  style={{width:'70%',opacity:'0.7'}} className="img-fluid rounded mb-5" />
                 </div> 
             <div className='col-lg-6 my-2 d-flex flex-column justify-content-center align-items-center'>
-                 <h1 className='text-success fw-bold'>Lunch</h1>
+                 
 {
     lunch.map((i)=>(
         <div className='my-3' key={i.id}>

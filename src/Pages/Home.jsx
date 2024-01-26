@@ -83,8 +83,8 @@ function Home(){
             </div>
         </div>
         <Gallery />
-        <div className='fluid-container bg-dark'>
-        <ContactInfo />
+        <div className='fluid-container bg-dark text-light'>
+            <ContactInfo />
         </div>
     </div>
         

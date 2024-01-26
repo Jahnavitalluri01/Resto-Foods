@@ -30,9 +30,9 @@ function App() {
         <Route path='/about' element={<About />} />
         <Route path='/contact' element={<Contact />} />
         </Routes>
-         {/* <footer className='fixed-bottom bg-dark'>
+         <footer className='fixed-bottom bg-dark'>
           <p className='p-1 text-center text-white shadow-lg'>Copyright @Jahnavi</p>
-         </footer> */}
+         </footer>
     </div>
   );
 }

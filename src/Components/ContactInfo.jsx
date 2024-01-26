@@ -3,7 +3,7 @@ import Contactinfo from '../Images/contactinfo.jpg'
 export function ContactInfo(){
     return(
         <div className="container my-5 py-5">
-               <div className="row text-light">
+               <div className="row">
                 <div className="col-lg-6 d-flex flex-column align-items-center justify-content-center">  {/*since flex-direction-column we use align-items for horizontal alignment */}
                     <h1 className="fw-bold fs-3">Where To Find Us</h1>
                     <p className="text-center">48 Baker Street, Missouri</p>
